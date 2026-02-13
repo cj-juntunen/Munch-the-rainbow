@@ -64,7 +64,7 @@ The built files will be in the `dist/` folder, ready to deploy.
    ```
 4. Run `npm run deploy`
 5. In your GitHub repo settings, under Pages, select the `gh-pages` branch
-6. Your app will be live at `https://cj-juntunen.github.io/munch-the-rainbow/`
+6. Your app will be live at `https://USERNAME.github.io/munch-the-rainbow/`
 
 ## 📱 Add to iPhone Home Screen
 
