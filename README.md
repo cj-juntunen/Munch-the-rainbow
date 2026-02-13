@@ -1,21 +1,21 @@
-# 🌈 Munch the Rainbow
+# 🌈 Munch the Rainbow 🌈
 
 **Track the colors of your nutrition, not the numbers.**
 
 Munch the Rainbow is a number-free food tracker designed for people who want to eat a balanced diet without the anxiety of calorie counting. Instead of tracking grams and calories, you track *macro categories as colors* — and your goal is simply to eat as many different colors as possible each day.
 
-## 🎨 Philosophy
+## Philosophy
 
 This app was born out of a simple idea: for many people, tracking exact calories and macros can trigger disordered eating patterns, food-based anxiety, or an unhealthy relationship with food. But balance still matters.
 
-Munch the Rainbow replaces numbers with a **color mosaic**. Each meal you log adds colored tiles representing the macro categories present in your food. At the end of the day, a vibrant, varied mosaic means you nourished yourself well. No scores, no grades, no judgment — just color.
+Munch the Rainbow replaces numbers with a color mosaic. Each meal you log adds colored tiles representing the macro categories present in your food. At the end of the day, a vibrant, varied mosaic means you nourished yourself well. No scores, grades, or judgment, just color.
 
 **By default, no numbers are shown anywhere in the app.** There is an optional setting to display gram quantities for users who find that helpful, but it is off by default and comes with a clear note encouraging you to only enable it if it supports your health goals.
 
-## ✨ Features
+## Features
 
 - **Color-based daily mosaic** — see your nutritional balance at a glance
-- **7 macro categories**: Protein 🥩, Carbs 🍞, Veggies 🥦, Fruits 🍊, Healthy Fats 🥑, Dairy/Calcium 🧀, Hydration 💧
+- **7 macro categories**: Protein, Carbs, Veggies, Fruits, Healthy Fats, Dairy/Calcium, Hydration
 - **Meal slots** — Breakfast, Lunch, Dinner, and Snack
 - **Barcode scanner** — scan packaged foods using your phone's camera and auto-map them to color categories via [Open Food Facts](https://world.openfoodfacts.org/)
 - **Manual barcode entry** — type in a barcode number as a fallback
@@ -25,7 +25,7 @@ Munch the Rainbow replaces numbers with a **color mosaic**. Each meal you log ad
 - **100% local storage** — your data never leaves your device
 - **Mobile-first design** — works great on phones, tablets, and desktop
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -35,7 +35,7 @@ Munch the Rainbow replaces numbers with a **color mosaic**. Each meal you log ad
 ### Install & Run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/munch-the-rainbow.git
+git clone https://github.com/cj-juntunen/munch-the-rainbow.git
 cd munch-the-rainbow
 npm install
 npm run dev
@@ -64,7 +64,7 @@ The built files will be in the `dist/` folder, ready to deploy.
    ```
 4. Run `npm run deploy`
 5. In your GitHub repo settings, under Pages, select the `gh-pages` branch
-6. Your app will be live at `https://YOUR_USERNAME.github.io/munch-the-rainbow/`
+6. Your app will be live at `https://cj-juntunen.github.io/munch-the-rainbow/`
 
 ## 📱 Add to iPhone Home Screen
 
@@ -74,7 +74,7 @@ Since this app is a web app, you can add it to your iPhone's home screen so it l
 
 1. **Open Safari** on your iPhone (this only works in Safari, not Chrome or other browsers)
 2. **Navigate** to your deployed GitHub Pages URL:
-   `https://YOUR_USERNAME.github.io/munch-the-rainbow/`
+   `https://cj-juntunen.github.io/munch-the-rainbow/`
 3. **Tap the Share button** (the square with an arrow pointing up, at the bottom of the screen)
 4. **Scroll down** in the share sheet and tap **"Add to Home Screen"**
 5. **Name it** whatever you like (it'll default to "Munch 🌈")
@@ -92,7 +92,7 @@ On Android, the process is similar:
 3. Tap **"Add to Home screen"**
 4. Confirm the name and tap **"Add"**
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **React** + **TypeScript** (via Vite)
 - **Tailwind CSS** for styling
@@ -100,7 +100,7 @@ On Android, the process is similar:
 - **Open Food Facts API** for barcode → nutrition data lookup
 - **localStorage** for data persistence
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here are some ideas for future improvements:
 
@@ -122,11 +122,11 @@ Contributions are welcome! Here are some ideas for future improvements:
 
 Please keep the core philosophy in mind: **balance over numbers, encouragement over judgment**. Any features that introduce scores, grades, or negative feedback about eating patterns will not be merged.
 
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Nutrition data provided by [Open Food Facts](https://world.openfoodfacts.org/), an open-source food products database
 - Built with care for people who deserve a healthier relationship with food tracking
